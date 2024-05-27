@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <title>Nosotros</title>
+</head>
+
+<body>
+    <!-- MENU -->
+    <div class="contenedor-header">
+        <header>
+            <h1><a href="index.html">THE <span class="txtRojo">ELITE GYM</span></a></h1>
+            <nav id="nav">
+                <a href="index.html" onclick="seleccionar()">inicio</a>
+                <a href="nosotros.html" onclick="seleccionar()">Nosotros</a>
+                <a href="servicios.html" onclick="seleccionar()">Servicios</a>
+                <a href="prestaciones.html" onclick="seleccionar()">Prestaciones</a>
+                <a href="galeria.html" onclick="seleccionar()">Galería</a>
+                <a href="contacto.html" onclick="seleccionar()">Contacto</a>
+                <a href="inscripcion.php" onclick="seleccionar()">Inscripcion</a>
+                <a href="paleta.html" onclick="seleccionar()">Paleta</a>
+            </nav>
+            <div id="icono-nav" class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <!-- SECCION NOSOTROS -->
+    <section id="nosotros" class="nosotros">
+        <div class="fila">
+            <div class="col">
+                <img src="img/nosotros.jpg" alt="">
+            </div>
+            <div class="col">
+                <div class="contenedor-titulo">
+                    <div class="numero">
+                        01
+                    </div>
+                    <div class="info">
+                        <span class="frase">LA MEJOR EXPERIENCIA</span>
+                        <h2>NOSOTROS</h2>
+                    </div>
+                </div>
+                <p class="p-especial">Tu destino para una vida más saludable y en forma.</p>
+                <p>Nuestro gimnasio fue fundado en el año 1992 con el objetivo de proporcionar a nuestra
+                    comunidad un espacio dedicado al fitness, la salud y el bienestar. Desde entonces, nos hemos
+                    comprometido a ayudar a nuestros miembros a alcanzar sus metas de fitness y a vivir vidas más
+                    saludables y activas.</p>
+                    <p class="p-especial">Misión</p>
+                <p>Nuestra misión es inspirar y capacitar a las personas para que alcancen su máximo potencial físico y
+                    mental. Nos esforzamos por crear un ambiente acogedor y motivador donde todos se sientan bienvenidos
+                    y apoyados en su viaje hacia un estilo de vida más activo y saludable.</p>
+            </div>
+        </div>
+        <hr>
+        <div class="fila-nosotros">
+            <div class="col1">
+                <span class="frase">
+                    <span class="txtRojo">ENTRENA</span> DIFERENTE
+                </span>
+                <h2>ENTRENA <span class="txtRojo">GRATIS</span> HOY!</h2>
+            </div>
+            <div class="col2">
+                <button><a href="inscripcion.html">¡INSCRIBETE!</a></button>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+        <div class="info">
+            <p>2024 - <span class="txtRojo">THE ELITE GYM</span> Todos los derechos reservados</p>
+            <div class="redes">
+                <a
+                    href="https://www.facebook.com/Elitefitnessynutrition/?paipv=0&eav=AfaOHQQsA2EmCG8vY0Lmb-S-qIKlZ3T6SqnYMmsHjnDDw5CydTBGutkWWrnX9COy-4s&_rdr">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com/elitefitnessynutrition/">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.youtube.com/@GymTopz/videos">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

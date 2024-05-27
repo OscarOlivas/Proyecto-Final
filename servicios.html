@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <title>Servicios</title>
+</head>
+
+<body>
+    <!-- MENU -->
+    <div class="contenedor-header">
+        <header>
+            <h1><a href="index.html">THE <span class="txtRojo">ELITE GYM</span></a></h1>
+            <nav id="nav">
+                <a href="index.html" onclick="seleccionar()">inicio</a>
+                <a href="nosotros.html" onclick="seleccionar()">Nosotros</a>
+                <a href="servicios.html" onclick="seleccionar()">Servicios</a>
+                <a href="prestaciones.html" onclick="seleccionar()">Prestaciones</a>
+                <a href="galeria.html" onclick="seleccionar()">Galería</a>
+                <a href="contacto.html" onclick="seleccionar()">Contacto</a>
+                <a href="inscripcion.php" onclick="seleccionar()">Inscripcion</a>
+                <a href="paleta.html" onclick="seleccionar()">Paleta</a>
+            </nav>
+            <div id="icono-nav" class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <!--SERVICIOS -->
+    <section class="servicios" id="servicios">
+        <div class="contenido-seccion">
+            <div class="fila">
+                <div class="col">
+                    <div class="contenedor-titulo">
+                        <div class="numero">
+                            02
+                        </div>
+                        <div class="info">
+                            <h2>SERVICIOS</h2>
+                        </div>
+                    </div>
+
+                    <p>En nuestro gimnasio, ofrecemos una variedad de servicios diseñados para satisfacer las
+                        necesidades individuales de nuestros miembros y ayudarles a alcanzar sus metas de fitness.</p>
+                    <p class="p-especial">Nuestros servicios incluyen:</p>
+                </div>
+                <div class="col">
+                    <img src="img/Boxeo.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="info-servicios">
+            <table>
+                <tr>
+                    <td>
+                        <i class="fa-solid fa-dumbbell"></i>
+                        <h3><span class="txtRojo">Entrenamiento</span> Personalizado</h3>
+                        <p>Nuestros entrenadores certificados diseñarán un programa de entrenamiento personalizado
+                            adaptado a tus objetivos específicos, nivel de condición física y cualquier consideración
+                            médica.</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-heart-pulse"></i>
+                        <h3>Asesoría <span class="txtRojo">Nutricional</span></h3>
+                        <p>Nuestros expertos en nutrición te ayudarán a mejorar tu dieta y hábitos alimenticios para
+                            optimizar tu rendimiento y alcanzar tus metas de salud y fitness.</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-hand-fist"></i>
+                        <h3>Clases de <span class="txtRojo">Boxeo</span></h3>
+                        <p>Nuestras clases de boxeo te brindan un entrenamiento intenso y divertido que combina golpes
+                            de boxeo con ejercicios de fuerza y condición física.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <i class="fa-solid fa-brain"></i>
+                        <h3>Clases de <span class="txtRojo">yoga</span></h3>
+                        <p>Nuestras clases de yoga te ofrecen un espacio para relajar cuerpo y mente, mejorar la
+                            flexibilidad, la fuerza y la concentración, y reducir el estrés y la ansiedad.</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-heart-circle-bolt"></i>
+                        <h3>Clases de <span class="txtRojo">Zumba</span></h3>
+                        <p>Nuestras clases de Zumba ofrecen una experiencia de baile fitness divertida y energizante que combina ritmos latinos y movimientos de baile aeróbico.</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-bicycle"></i>
+                        <h3>Clases de <span class="txtRojo">Spinning</span></h3>
+                        <p>Nuestras clases de spinning te ofrecen un entrenamiento cardiovascular intenso y de bajo
+                            impacto en bicicletas estáticas, dirigido por instructores motivadores y música enérgica.
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+        <div class="info">
+            <p>2024 - <span class="txtRojo">THE ELITE GYM</span> Todos los derechos reservados</p>
+            <div class="redes">
+                <a
+                    href="https://www.facebook.com/Elitefitnessynutrition/?paipv=0&eav=AfaOHQQsA2EmCG8vY0Lmb-S-qIKlZ3T6SqnYMmsHjnDDw5CydTBGutkWWrnX9COy-4s&_rdr">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com/elitefitnessynutrition/">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.youtube.com/@GymTopz/videos">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                
+            </div>
+        </div>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
